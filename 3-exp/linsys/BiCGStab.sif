@@ -1,0 +1,7 @@
+  Linear System Solver = Iterative
+  Linear System Iterative Method = BiCGStab
+  Linear System Max Iterations  = 2000
+  Linear System Preconditioning = ILU6
+  Linear System Convergence Tolerance = 1.0e-08
+
+  Linear System Residual Output = 100
