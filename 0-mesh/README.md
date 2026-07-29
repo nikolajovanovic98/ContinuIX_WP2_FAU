@@ -17,7 +17,7 @@ computational mesh suitable for Elmer/Ice simulations.
 | File | Description |
 |------|-------------|
 | `1_get_mask_oggm.sh` | Script can be used to obtain Aletsch ice mask from `OGGM_shop` via `IGM` |
-| `2_mask2shp.py` | Generate a .shp containing all geometries (nunataks, main outline, ...) |
+| `2_mask2shp.py` | Generate a `.shp` containing all geometries (nunataks, main outline, ...) |
 | `3_shp2csv.py` | Convert `.shp` into `.csv` to generate a `.geo` file || `4_csv2geo.py` | Generate a `.geo` file from the `.csv` file (written by Claude) |
 | `coords.csv` | Example `.csv` file |
 | `icemask_lv95` | Aletsch ice mask used in this study |
