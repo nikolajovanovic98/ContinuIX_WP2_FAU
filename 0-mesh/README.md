@@ -30,31 +30,31 @@ computational mesh suitable for Elmer/Ice simulations.
 Run the mesh generation pipeline:
 
 ```bash
+# optional: ice mask already available (icemask_lv95.nc)
 . 1_get_mask_oggm.sh
 ```
-(specify ...)
 
 In QGIS, run `2_mask2shp.py` via Python plug-in. Save the `.shp` file `0-mesh` directory. 
 
 ```bash
-python 3_shp2csv.py test.shp test.csv
+python 3_shp2csv.py "{name}.shp" "{name}.csv"
 ```
 
 ```bash
-python 4_csv2geo
+python 4_csv2geo.py
 ```
 
 Then
 
 ```bash
-gmsh -1 -2 "${MESH}.geo" -o "${MESH}.msh"
+gmsh -1 -2 "{name}.geo" -o .msh
 
 # Generate serial mesh and a VTU flie
-ElmerGrid 14 2 "${MESH}.msh" -autoclean 
-ElmerGrid 14 5 "${MESH}.msh" -autoclean
+ElmerGrid 14 2 "{name}.msh" -autoclean 
+ElmerGrid 14 5 "{name}.msh" -autoclean
 
 # Generate partitioned mesh 
-ElmerGrid 2 2 "${MESH}" -metis 16 0 
+ElmerGrid 2 2 "{name}" -metis 16 0 
 ```
 -------------------------------------------------------------------------------
 ## Outputs
@@ -71,4 +71,5 @@ This directory needs to be copied further for mesh extrusion.
 ## Notes
 -------------------------------------------------------------------------------
 
+- Check naming convention.
 - Check mesh quality before moving to the next step (e.g., if nunataks are well represented). 

@@ -273,7 +273,7 @@ End
 
 Solver 6 
   Equation = SMB 
-  Procedure = "../SRC/SyntSMB_nikola" "SyntSMB"
+  Procedure = "../SRC/SyntSMB_grad" "SyntSMB"
   Variable = "Mass Balance Ini" 		! Post-processed in Body Force 2 
   Variable DOFs = 1 
 

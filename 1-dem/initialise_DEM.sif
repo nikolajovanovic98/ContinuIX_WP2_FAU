@@ -14,7 +14,7 @@ include "../Parameters/Physical_Parameters.IN"
 
 !placeholders
 $namemesh = "inv-shp"
-$ncfile   = "inv-shp/aletsch_combined_final.nc"
+$ncfile   = "aletsch_combined_final.nc"
 $outfile  = "inv-shp.result" 
 $postfile = "inv-shp.vtu"
 
