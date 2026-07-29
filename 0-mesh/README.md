@@ -47,7 +47,7 @@ python 4_csv2geo.py
 Then
 
 ```bash
-gmsh -1 -2 "{name}.geo" -o .msh
+gmsh -1 -2 "{name}.geo" -o "{name}.msh"
 
 # Generate serial mesh and a VTU flie
 ElmerGrid 14 2 "{name}.msh" -autoclean 
@@ -71,5 +71,5 @@ This directory needs to be copied further for mesh extrusion.
 ## Notes
 -------------------------------------------------------------------------------
 
-- Check naming convention.
+- Check naming convention. Changing names will require modifications to commands and scripts.
 - Check mesh quality before moving to the next step (e.g., if nunataks are well represented). 
