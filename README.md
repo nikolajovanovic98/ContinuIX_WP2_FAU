@@ -2,7 +2,7 @@
 
 This work is part of WP2 of the ContinuIX project. We use the finite-element ice-flow model ElmerIce to perform eleven transient simulations of Aletsch Glacier under different surface mass balance (SMB) forcings, spanning equilibrium line altitudes (ELAs) from 2900 to 3100 m a.s.l. in 20 m increments. The resulting output is used to evaluate model SMB uncertainty against available observations.
 
-For more information, visit the project website: https://cryosphericsciences.org/activities/continuity-approaches-for-mass-balance-intercomparison-exercise-continuix/>.
+For more information, visit the project website: <https://cryosphericsciences.org/activities/continuity-approaches-for-mass-balance-intercomparison-exercise-continuix/>.
 
 -------------------------------------------------------------------------------
 ## Requirements
