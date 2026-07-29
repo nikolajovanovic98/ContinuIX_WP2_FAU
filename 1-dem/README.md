@@ -22,8 +22,8 @@ Generates a Digital Elevation Model (DEM) for Aletsch given topography data.
 
 Run the extrusion pipeline:
 
-# Copy the mesh directory
 ```bash
+# Copy the mesh directory
 . cp -r 0-mesh/inv-shp . 
 ```
 ```

@@ -23,8 +23,8 @@ Runs eleven experiments with ELA values ranging from $2900$ to $3100$ in $20\,\m
 
 Run the steady state pipeline:
 
-# Copy the mesh directory (here, we change the name of the working directory to the appropriate ELA experiment)
 ```bash
+# Copy the mesh directory (here, we change the name of the working directory to the appropriate ELA experiment)
 . cp -r 2-steady/inv-shp 2900 
 ```
 ```

@@ -23,8 +23,8 @@ Runs the "steady state" simulation for Aletsch given SMB forcing (here, $\mathrm
 
 Run the steady state pipeline:
 
-# Copy the mesh directory
 ```bash
+# Copy the mesh directory
 . cp -r 1-dem/inv-shp . 
 ```
 ```
