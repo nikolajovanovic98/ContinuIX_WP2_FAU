@@ -24,7 +24,7 @@ Run the extrusion pipeline:
 
 ```bash
 # Copy the mesh directory
-. cp -r 0-mesh/inv-shp . 
+cp -r 0-mesh/inv-shp . 
 ```
 ```
 # Serial simulation

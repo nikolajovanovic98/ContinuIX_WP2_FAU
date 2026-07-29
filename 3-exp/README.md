@@ -25,7 +25,7 @@ Run the steady state pipeline:
 
 ```bash
 # Copy the mesh directory (here, we change the name of the working directory to the appropriate ELA experiment)
-. cp -r 2-steady/inv-shp 2900 
+cp -r 2-steady/inv-shp 2900 
 ```
 ```
 # Serial simulation

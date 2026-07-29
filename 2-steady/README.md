@@ -25,7 +25,7 @@ Run the steady state pipeline:
 
 ```bash
 # Copy the mesh directory
-. cp -r 1-dem/inv-shp . 
+cp -r 1-dem/inv-shp . 
 ```
 ```
 # Serial simulation
