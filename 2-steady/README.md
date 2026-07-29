@@ -4,7 +4,7 @@
 ## Purpose
 -------------------------------------------------------------------------------
 
-Runs the "steady state" simulation for Aletsch given SMB forcing (here, $\mathrm{ELA} = 2800$ m). $110$ years needed for the glacier to equilibrate $(\mathrm{dh}/\mathrm{dt} \approx 0$  $mathrm{m}\mathrm{y}^{-1})$.  
+Runs the "steady state" simulation for Aletsch given SMB forcing (here, $\mathrm{ELA} = 2800$ m). $110$ years needed for the glacier to equilibrate $(\mathrm{dh}/\mathrm{dt} \approx 0$  $\mathrm{m}\mathrm{y}^{-1})$.  
 
 -------------------------------------------------------------------------------
 ## Contents
