@@ -18,3 +18,4 @@
 3-exp/ela_exp.log
 3-exp/steady-state*
 SRC/*so
+.gitignore
